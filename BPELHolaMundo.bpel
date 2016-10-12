@@ -76,7 +76,7 @@
              xml:id="id_9"/>
     <assign name="Assign1" xml:id="id_10">
       <copy xml:id="id_11">
-        <from xml:id="id_12">concat('Hola ', $inputVariable.payload/client:input,' como estas? ')</from>
+        <from xml:id="id_12">concat('Hola! ', $inputVariable.payload/client:input,' como estas? ')</from>
         <to xml:id="id_13">$outputVariable.payload/client:result</to>
       </copy>
     </assign>
