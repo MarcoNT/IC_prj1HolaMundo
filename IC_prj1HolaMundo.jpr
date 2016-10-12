@@ -280,7 +280,8 @@
          </list>
          <list n="url-path">
             <url path="src/"/>
-            <url path="SCA-INF\src/"/>
+            <url path="SCA-INF/src/"/>
+            <url path="../../../soamdw/"/>
          </list>
       </hash>
    </hash>
